@@ -5,7 +5,17 @@ body {
   font-family: "Arial", monospace;
   color: grey;
   margin: 0px;
-  height: 100%;
+
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: right 36vw bottom 48vh, left 37vw top 47vh;
+  
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .bg-top {
@@ -56,6 +66,26 @@ b {
   padding-top: 90px;
 }
 
+.card:hover {
+  z-index: 1;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: white;
+  background-image: url(images/bg-pattern-card.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  width: 350px;
+  text-align: center;
+  padding-top: 90px;
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  
+}
+
 img.profile-picture {
   display:block;
   margin:auto;
@@ -77,11 +107,12 @@ img.profile-picture {
 
 .footer {
   position: fixed;
-  margin: 10px 20px;
-  left: 0;
-  bottom: 0;
+  padding: 10px;
+  left: 0vw;
+  bottom: 0vh;
   width: 100%;
   color: white;
   text-align: center;
   font-size: xx-small;
+  background-color: rgba(255, 255, 255, 0.1);
 }
