@@ -13,8 +13,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Github repository: [Github Pages](https://github.com/nicolashodee/profile-card-component-main)
-- Live Site URL: [Github repository](https://nicolashodee.github.io/profile-card-component-main/)
+- Github repository: [Github repository](https://github.com/nicolashodee/profile-card-component-main)
+- Live Site URL: [Github Pages](https://nicolashodee.github.io/profile-card-component-main/)
 
 ## My process
 
